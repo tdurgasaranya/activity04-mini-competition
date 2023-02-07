@@ -93,7 +93,11 @@ Remember to organize your RMarkdown document using your Markdown skills.
 
 The data we’re working with is from the OpenIntro site. However, this
 time we will use a **TSV** file instead of a **CSV** file (hint: not
+<<<<<<< HEAD
 `readr::read_csv`):
+=======
+`readr::read_csv`:
+>>>>>>> ae6c786f826a0fb999792ad70e2cbff008aae425
 `https://www.openintro.org/data/tab-delimited/evals.txt`
 
 - Create a new R code chunk to read in the linked TSV file.
