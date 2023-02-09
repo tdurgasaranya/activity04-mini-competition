@@ -47,14 +47,14 @@ Recall from Day 1 that we explored the model that included `bty_avg` and
 `gender` to predict `score`.
 
 $$
-\widehat{\texttt{score}} &= \hat{\beta}_0 + \hat{\beta}_1 \times \texttt{bty\\_avg} + \hat{\beta}_2 \times \texttt{gender}
+\widehat{\texttt{score}} = \hat{\beta}_0 + \hat{\beta}_1 \times \texttt{bty\\_avg} + \hat{\beta}_2 \times \texttt{gender}
 $$
 
 Today we will explore a similar model, except that also includes the
 interaction between `bty_avg` and `geneder`. That is,
 
 $$
-\widehat{\texttt{score}} &= \hat{\beta}_0 + \hat{\beta}_1 \times \texttt{bty\\_avg} + \hat{\beta}_2 \times \texttt{gender} + \hat{\beta}_3 \times (\texttt{bty\\_avg} \times \texttt{gender})
+\widehat{\texttt{score}} = \hat{\beta}_0 + \hat{\beta}_1 \times \texttt{bty\\_avg} + \hat{\beta}_2 \times \texttt{gender} + \hat{\beta}_3 \times (\texttt{bty\\_avg} \times \texttt{gender})
 $$
 
 - Open your `day01-qualitative-explanatory/activity04.Rmd` file and

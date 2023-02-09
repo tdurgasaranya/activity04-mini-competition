@@ -19,9 +19,10 @@ In this repository/directory, you should see five items:
 - `.gitignore` - a file that is used to specify what Git can ignore when
   pushing to GitHub. You do not need to do anything with this.
 - `README.md` - the document you are currently reading.
-- `day01-fitting` - a folder that contains items for you to complete
-  during the first 75-minute class meeting.
-  <!-- - `day02-assessing` - a folder that contains items for you to complete during the second 75-minute class meeting. -->
+- `day01-qualitative-explanatory` - a folder that contains items for you
+  to complete during the first 75-minute class meeting.
+- `day02-interactions` - a folder that contains items for you to
+  complete during the second 75-minute class meeting.
 
 We will explore most of these items over this week. Before doing that,
 you will first make your own copy of this repository.
