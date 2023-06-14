@@ -6,3 +6,41 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+- Reading the survey data and understanding the variables in excel likely to be as follows:
+BASMID: A unique identifier for each record
+ALLGRADEX: Grade level
+EDCPUB: Education in public school (binary variable: 1 = Yes, 2 = No)
+SCCHOICE: School choice (categorical variable: 1, 2, 3)
+SPUBCHOIX: Public school choice (categorical variable: 1, 2, 3)
+SCONSIDR: Considerations for school choice (categorical variable: 1, 2, 3, 4)
+SCHLHRSWK: School hours per week
+EINTNET: Engaged in internet activities (binary variable: 1 = Yes, 2 = No)
+MOSTIMPT: Most important factor (categorical variable: 1, 2, 3, 4)
+INTNUM: Number of internet-connected devices
+SEENJOY: Enjoyment of school
+SEGRADES: Satisfaction with grades
+SEABSNT: Absenteeism (binary variable: 1 = Yes, 2 = No)
+SEGRADEQ: Grade requirements
+FSSPORTX: Participation in sports (binary variable: 1 = Yes, 2 = No)
+FSVOL: Volunteering activities (binary variable: 1 = Yes, 2 = No)
+FSMTNG: Parent-teacher meetings (binary variable: 1 = Yes, 2 = No)
+FSPTMTNG: Parent participation in meetings (binary variable: 1 = Yes, 2 = No)
+FSATCNFN: Attendance at school conferences (binary variable: 1 = Yes, 2 = No)
+FSFUNDRS: Fundraising activities (binary variable: 1 = Yes, 2 = No)
+FSCOMMTE: Participation in community activities (binary variable: 1 = Yes, 2 = No)
+FSCOUNSLR: Counseling services at school (binary variable: 1 = Yes, 2 = No)
+FSFREQ: Frequency of school communication
+FSNOTESX: School notes received (binary variable: 1 = Yes, 2 = No)
+FSMEMO: School memos received (binary variable: 1 = Yes, 2 = No)
+FCSCHOOL: Child's school satisfaction (categorical variable: 1, 2, 3, 4)
+FCTEACHR: Teacher satisfaction (categorical variable: 1, 2, 3, 4)
+FCSTDS: Parent involvement in student's school (categorical variable: 1, 2, 3, 4)
+FCORDER: Orderliness at home (categorical variable: 1, 2, 3, 4)
+FCSUPPRT: Parental support (categorical variable: 1, 2, 3, 4)
+FHHOME: Homeownership (binary variable: 1 = Yes, 2 = No)
+FHWKHRS: Weekly work hours of the household
+FHAMOUNT: Amount of housing expenses
+FHCAMT: Monthly mortgage payment
+FHPLACE: Location of the household
+FHCHECKX: Housing check (binary variable: 1 = Yes, 2 = No)
+FHHELP: Housing help received (binary variable: 1 = Yes, 2 = No
