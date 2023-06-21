@@ -181,7 +181,7 @@ summary(mlr_model2)
 
 ```{r}
 # Construct the multiple linear regression model
-mlr_model3 <- lm(cbind(SEGRADEQ) ~ SCCHOICE + FSCOUNSLR + SCHLHRSWK, data = Testdata)
+mlr_model3 <- lm(cbind(SEGRADEQ) ~ FHWKHRS + P1HRSWK, data = Testdata)
 
 # Print the summary of the model
 summary(mlr_model3)
@@ -198,3 +198,20 @@ print(anova_result)
 
 ```
 
+- To create 3D plots for better understanding of variables distribution and linearity
+
+## creating plots - Co relation matrix for the MLR
+
+```{r}
+
+predictors <- Testdata[, c("SCCHOICE", "FSCOUNSLR", "SCHLHRSWK")]
+
+library(corrplot)
+
+# Compute the correlation matrix
+cor_matrix <- cor(predictors)
+
+# Plot the correlation matrix
+corrplot(cor_matrix, method = "circle")
+
+```
